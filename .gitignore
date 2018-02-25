@@ -6,6 +6,7 @@ dist/
 build/
 _docs/
 _packages/
+_assets/
 Thumbs.db
 
 # We only care about .less files
