@@ -1,0 +1,5 @@
+const:
+    version: 1.0
+copy:
+    index:
+        blurb1: HELLO FROM THE INDEX PAGE!

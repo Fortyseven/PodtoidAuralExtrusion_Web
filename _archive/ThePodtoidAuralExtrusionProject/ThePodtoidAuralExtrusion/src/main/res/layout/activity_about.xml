@@ -1,0 +1,149 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".AboutActivity">
+
+
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/about"
+                />
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@android:style/TextAppearance.Large"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="@string/version"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@android:style/TextAppearance.Small"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                android:text="@string/date"/>
+
+        <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                style="@android:style/TextAppearance.Small"
+                                android:gravity="center"
+                                android:textColor="#FF0000"
+                                android:textStyle="bold"
+                                android:text="Related Sites"/>
+
+                        <LinearLayout
+                                android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                                <Button
+                                        android:text="Destructoid"
+                                        android:tag="http://www.destructoid.com/?t=PODTOID"
+                                        style="@style/AboutButton"/>
+
+                                <Button
+                                        android:text="RSS"
+                                        android:tag="http://podcasts.destructoid.com/rss"
+                                        style="@style/AboutButton"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                                android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                                <Button
+                                        android:text="Facebook Group"
+                                        android:tag="https://www.facebook.com/groups/464096396993232/"
+                                        style="@style/AboutButton"/>
+
+                                <Button
+                                        android:text="Wiki"
+                                        android:tag="http://podtoid.wikia.com/wiki/Podtoid_Wiki"
+                                        style="@style/AboutButton"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                                android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                                <Button
+                                        android:text="New Adventures"
+                                        android:tag="http://www.youtube.com/watch?v=rdd8L-VXJ8M"
+                                        style="@style/AboutButton"/>
+
+                                <Button
+                                        android:text="Drinking Game"
+                                        android:tag="http://i.imgur.com/Hf4fGvW.jpg"
+                                        style="@style/AboutButton"/>
+                        </LinearLayout>
+
+
+                        <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                style="@android:style/TextAppearance.Small"
+                                android:gravity="center"
+                                android:textColor="#FF0000"
+                                android:textStyle="bold"
+                                android:text="Twitter"/>
+
+                        <LinearLayout
+                                android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                                <Button
+                                        android:text="@string/twitter_podtoid"
+                                        android:tag="https://twitter.com/Podtoid"
+                                        style="@style/AboutButton"/>
+
+                                <Button
+                                        android:text="@string/twitter_sterling"
+                                        android:tag="https://twitter.com/JimSterling/"
+                                        style="@style/AboutButton"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                                android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                                <Button
+                                        android:text="@string/twitter_holmes"
+                                        android:tag="https://twitter.com/TronKnotts/"
+                                        style="@style/AboutButton"/>
+
+                                <Button
+                                        android:text="@string/twitter_conrad"
+                                        android:tag="https://twitter.com/ConradZimmerman/"
+                                        style="@style/AboutButton"/>
+                        </LinearLayout>
+
+                        <TextView
+                                android:layout_marginTop="10dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="10dp"
+                                android:text="@string/about_thanks"
+                                />
+
+                </LinearLayout>
+        </ScrollView>
+
+        <Button
+                android:layout_marginTop="10dp"
+                android:text="Chungus"
+                android:onClick="btnClose"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+{% import "../pages/_utils.twig" as utils %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Untitled Project{% if title %} - {{ title }}{% else %} - Untitled Page{% endif %}</title>
+    <link rel="stylesheet" href="{{ path.dest.css }}/main.css">
+    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+    <link rel="icon" type="image/png" href="/favicon.png"/>
+    {% include '../_partials/_analytics.twig' %}
+    <!-- ##### BUILD DATE: {{ "now"|date() }} ##### -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.2.0/zepto.min.js" integrity="sha256-vrn14y7WH7zgEElyQqm2uCGSQrX/xjYDjniRUQx3NyU=" crossorigin="anonymous"></script>
+</head>
+<body data-page-id="{{ page_id }}" {% if has_sticky_footer %}data-has-sticky-footer="{{ has_sticky_footer }}"{% endif %}>
+    <div id="BodyWrapper">
+        {% include "../_partials/_header.twig" %}
+        <div id="Content">
+            {% block content %}{% endblock content %}
+        </div>
+        {% include "../_partials/_footer.twig" %}
+        <script src="{{ path.dest.scripts }}/main.js"></script>
+    </div>
+</body>
+</html>

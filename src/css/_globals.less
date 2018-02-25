@@ -1,0 +1,94 @@
+/** BREAKPOINTS **/
+
+@desktop: ~"screen and (min-width: 1280px)";
+@tablet: ~"screen and (min-width: 768px) and (max-width:1280px)";
+@tablet-on-up: ~"screen and (min-width: 768px)";
+@mobile: ~"screen and (max-width: 767px)";
+@non-desktop: ~"screen and (max-width:1280px)";
+
+/** COLORS **/
+
+
+/** DIMENSIONS **/
+
+@content-width: 1600px;
+
+/** TYPOGRAPHY **/
+//@standard-fonts: "MyFontLight", "Arial", sans-serif;
+@standard-fonts: Arial, Helvetica, sans-serif;
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: @standard-fonts;
+}
+
+// @font-face {
+//     font-family: 'MyFontLight';
+//     src:         url('@{path_fonts}/myfont/MyFont-Light.eot?#iefix') format('embedded-opentype'),
+//                  url('@{path_fonts}/myfont/MyFont-Light.woff') format('woff'),
+//                  url('@{path_fonts}/myfont/MyFont-Light.ttf') format('truetype'),
+//                  url('@{path_fonts}/myfont/MyFont-Light.svg#MyFontLight') format('svg');
+//     font-style:  normal;
+// }
+
+// @font-face {
+//     font-family: 'MyFontLight';
+//     src:         url('@{path_fonts}/myfont/MyFont-LightItalic.eot?#iefix') format('embedded-opentype'),
+//                  url('@{path_fonts}/myfont/MyFont-LightItalic.woff') format('woff'),
+//                  url('@{path_fonts}/myfont/MyFont-LightItalic.ttf') format('truetype'),
+//                  url('@{path_fonts}/myfont/MyFont-LightItalic.svg#MyFontLightItalic') format('svg');
+//     font-style:  italic;
+// }
+
+// @font-face {
+//     font-family: 'MyFontMedium';
+//     src:         url('@{path_fonts}/myfont/MyFont-Medium.eot?#iefix') format('embedded-opentype'),
+//                  url('@{path_fonts}/myfont/MyFont-Medium.woff') format('woff'),
+//                  url('@{path_fonts}/myfont/MyFont-Medium.ttf') format('truetype'),
+//                  url('@{path_fonts}/myfont/MyFont-Medium.svg#MyFontMedium') format('svg');
+//     font-style:  normal;
+// }
+
+// @font-face {
+//     font-family: 'MyFontMedium';
+//     src:         url('@{path_fonts}/myfont/MyFont-MediumItalic.eot?#iefix') format('embedded-opentype'),
+//                  url('@{path_fonts}/myfont/MyFont-MediumItalic.woff') format('woff'),
+//                  url('@{path_fonts}/myfont/MyFont-MediumItalic.ttf') format('truetype'),
+//                  url('@{path_fonts}/myfont/MyFont-MediumItalic.svg#MyFontMedium') format('svg');
+//     font-style:  italic;
+// }
+
+@media @non-desktop {
+    .desktop-only {
+        display: none !important;
+    }
+}
+
+@media @mobile {
+    .tablet-on-up {
+        display: none !important;
+    }
+}
+
+@media @desktop {
+    .mobile-only,
+    .tablet-only,
+    .non-desktop {
+        display: none !important;
+    }
+}
+
+@media @mobile {
+    .tablet-only,
+    .desktop-only {
+        display: none !important;
+    }
+}
+
+@media @tablet {
+    .mobile-only,
+    .desktop-only {
+        display: none !important;
+    }
+}
+
+@import "_macros";

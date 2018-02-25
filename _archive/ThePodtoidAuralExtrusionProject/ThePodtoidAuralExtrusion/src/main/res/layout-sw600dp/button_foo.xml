@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="5dp">
+
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#606060"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="Test Text"
+                android:shadowRadius="15"
+                android:shadowColor="#60FFFFFF"/>
+</LinearLayout>

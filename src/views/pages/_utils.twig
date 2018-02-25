@@ -1,0 +1,7 @@
+{% macro embedYouTube(class, video_id) %}
+    {% if video_id %}
+        <div class="video-block {{ class }}" onclick="playYouTube(this, '{{ video_id }}')"></div>
+    {% else %}
+        <div>NO VIDEO ID PROVIDED</div>
+    {% endif %}
+{% endmacro %}

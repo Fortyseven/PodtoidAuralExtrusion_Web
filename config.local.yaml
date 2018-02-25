@@ -1,0 +1,20 @@
+path:
+    source:
+        root: ./src
+        top_level: /root
+        scripts: /scripts
+        css: /css
+        fonts: /fonts
+        video: /video
+        images: /images
+        views: /views/pages
+    dest:
+        root: ./dist
+        top_level: /
+        css: /assets/css
+        scripts: /assets/scripts
+        images: /assets/images
+        fonts: /assets/fonts
+        video: /assets/video
+        html: /
+    temp: ./temp
