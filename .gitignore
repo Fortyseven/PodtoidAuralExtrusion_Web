@@ -21,3 +21,5 @@ config.local*.json
 
 # Just gotta remove the whole thing. Damn it.
 /_assets/
+
+/client/src/scripts/main.js

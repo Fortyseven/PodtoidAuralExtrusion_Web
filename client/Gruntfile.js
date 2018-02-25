@@ -122,9 +122,15 @@ module.exports = function( grunt ) {
         js : {
             files : [
                 config.path.source.root + config.path.source.scripts + '/**/*.js',
-                '!' + config.path.source.root + config.path.source.scripts + '/assets/js/node_modules/**/*'
+                '!' + config.path.source.root + config.path.source.scripts + '/app/**/*'
             ],
             tasks : [ 'copy:scripts' ]
+        },
+        app_js : {
+            files : [
+                config.path.source.root + config.path.source.scripts + '/app/**/*'
+            ],
+            tasks : [ 'browserify' ]
         },
         styles : {
             files : [ config.path.source.root + config.path.source.css + '/**/*.less' ],
@@ -287,6 +293,17 @@ module.exports = function( grunt ) {
             autoIndex       : true,
             ext             : "html",
             runInBackground : true,
+        }
+    } );
+
+    /******************************************************/
+    grunt.loadNpmTasks( 'grunt-browserify' );
+    grunt.config( 'browserify', {
+        client : {
+            src               : config.path.source.root + config.path.source.scripts + "/app/app.js",
+            dest              : config.path.source.root + config.path.source.scripts + "/main.js",
+            browserifyOptions : { debug: true },
+            transform         : [["babelify", { "presets": ["es2015"] }]],
         }
     } );
 

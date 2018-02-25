@@ -10,7 +10,8 @@
     <link rel="icon" type="image/png" href="/favicon.png"/>
     {% include '../_partials/_analytics.twig' %}
     <!-- ##### BUILD DATE: {{ "now"|date() }} ##### -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.2.0/zepto.min.js" integrity="sha256-vrn14y7WH7zgEElyQqm2uCGSQrX/xjYDjniRUQx3NyU=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="{{ path.dest.scripts }}/main.js"></script>
 </head>
 <body data-page-id="{{ page_id }}" {% if has_sticky_footer %}data-has-sticky-footer="{{ has_sticky_footer }}"{% endif %}>
     <div id="BodyWrapper">
@@ -19,7 +20,6 @@
             {% block content %}{% endblock content %}
         </div>
         {% include "../_partials/_footer.twig" %}
-        <script src="{{ path.dest.scripts }}/main.js"></script>
     </div>
 </body>
 </html>
