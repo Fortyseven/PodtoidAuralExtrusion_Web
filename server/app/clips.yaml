@@ -3,7 +3,7 @@ category:
     Sterling:
         description:    Jim Sterling
         path:           "/audio/sterling"
-        hero_image:     null
+        hero_image:     "header_sterling.png"
         clips:
             Main:
                 - file: sterling_yeeaaah
@@ -68,6 +68,16 @@ category:
                   title: Suck a video game character...
                 - file: sterling_suckadickatxmas
                   title: Dick at XMas
+                - file: sterling_266_comeon
+                  title: Cummawn!
+                - file: sterling_266_doubleerections
+                  title: Double erections
+                - file: sterling_266_hotbod
+                  title: Hot bod meltdown
+                - file: sterling_fattyboomboom
+                  title: Fatty boom-boom
+                - file: sterling_scream
+                  title: Shriek!
 
             Dafoe:
                 - file: sterling_dafoe_farmeranimals
@@ -121,40 +131,28 @@ category:
 
             The Spidered-Man:
                 - file: sterling_whyholmesspiderman
-                  title: xxxxxxxxxxxx
+                  title: Why isn't Jonathan Holmes Spiderman?
                 - file: sterling_law_of_averages
-                  title: xxxxxxxxxxxx
+                  title: Law of Averages
                 - file: sterling_mindmeld
-                  title: xxxxxxxxxxxx
+                  title: We've got a mind meld...
                 - file: sterling_haventbeenbitten
-                  title: xxxxxxxxxxxx
-                - file: sterling_nogoodpieceofshit
-                  title: xxxxxxxxxxxx
-                - file: sterling_goddamnitparker
-                  title: xxxxxxxxxxxx
-                - file: sterling_jameson
-                  title: xxxxxxxxxxxx
-                - file: sterling_jameson_ex
-                  title: xxxxxxxxxxxx
-
-            BONUS:
-                - file: sterling_266_comeon
-                  title: sterling_266_comeon
-                - file: sterling_266_doubleerections
-                  title: sterling_266_doubleerections
-                - file: sterling_266_hotbod
-                  title: sterling_266_hotbod
+                  title: You haven't been bitten by the right spider.
                 - file: sterling_cantassume
-                  title: sterling_cantassume
-                - file: sterling_fattyboomboom
-                  title: sterling_fattyboomboom
-                - file: sterling_scream
-                  title: sterling_scream
+                  title: Can't just assume superpowers
+                - file: sterling_nogoodpieceofshit
+                  title: You no good piece of shit!
+                - file: sterling_goddamnitparker
+                  title: Goddamn it, Peter Parker!
+                - file: sterling_jameson
+                  title: Get me the Spidered Man!
+                - file: sterling_jameson_ex
+                  title: Get me the Spidered Man! - Full
 #############
     Holmes:
-        description:    Johnathan Holmes
+        description:    Jonathan Holmes
         path:           "/audio/holmes"
-        hero_image:     null
+        hero_image:     "header_holmes.png"
         clips:
             Main:
                 - file: holmes_allshitandaids
@@ -191,17 +189,15 @@ category:
                   title: What?
                 - file: holmes_wii
                   title: Everytime I say Wii
-
-            BONUS:
                 - file: holmes_266_ughgross
-                  title: holmes_266_ughgross
+                  title: Ugh! Gross.
                 - file: holmes_dowhateveryouwant
-                  title: holmes_dowhateveryouwant
+                  title: Do whatever you want to my body
 #############
     Zimmerman:
         description:    Conrad Zimmerman
         path:           "/audio/zim"
-        hero_image:     null
+        hero_image:     "header_zimmerman.png"
         clips:
             Main:
                 - file: zim_allfours
@@ -212,15 +208,13 @@ category:
                   title: First rebel teen
                 - file: zim_russiansub
                   title: Like a Russian Sub
-
-            BONUS:
                 - file: zim_266_swollenmember
-                  title: zim_266_swollenmember
+                  title: Swollen member
 #############
     Other:
         description:    Misc Clips
         path:           "/audio/other"
-        hero_image:     null
+        hero_image:     "header_other.png"
         clips:
             Main:
                 - file: other_agreement
@@ -246,4 +240,4 @@ category:
                 - file: other_theme_4
                   title: 4.Rave On (Killer7)
                 - file: other_theme_6
-                  title: other_theme_6
+                  title: 6. (Unknown title)
