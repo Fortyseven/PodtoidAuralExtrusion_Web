@@ -1,6 +1,5 @@
 @import "_reset";
 @import "_globals";
-
 body {
     font-family: @standard-fonts;
     font-size: 12pt;
@@ -13,13 +12,10 @@ body {
         background-image: url('/assets/images/header.png');
         background-repeat: no-repeat;
         background-position: center;
-        // background-size: contain;
         max-width: 1024px;
         height: 90px;
         margin: auto;
     }
-
-
     ul {
         padding: 0;
         margin: 0;
@@ -43,6 +39,9 @@ body {
             margin-top: 1em;
             line-height: 2em;
             user-select: none;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            text-transform: uppercase;
         }
         .category {
             max-width: 90%;
@@ -51,6 +50,8 @@ body {
     }
     .subcats {
         background-color: #200;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
         .subcat {
             margin-bottom: 1em !important;
             padding-left: 1em;
@@ -71,7 +72,7 @@ body {
         padding-right: 1em;
         .clip {
             flex: 1 1 200px;
-            margin: 0.10em;
+            margin: 1px;
         }
         button {
             font-family: @standard-fonts;
@@ -80,18 +81,20 @@ body {
             width: 100%;
             height: 3.3em;
             border: none;
-            color: black;
+            color: #111;
             line-height: 1em;
             font-size: 12pt;
             user-select: none;
+            text-transform: capitalize;
             cursor: pointer;
             &.playing,
             &.playing:hover {
                 background-color: red;
                 color: white;
+                text-shadow: 0 0 10px black;
             }
             &:hover {
-                background-color:#888;
+                background-color: #888;
             }
         }
     }
