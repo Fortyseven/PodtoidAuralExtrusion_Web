@@ -1,0 +1,351 @@
+categories:
+#############
+    -   name:           Sterling
+        description:    Jim Sterling
+        path:           "/audio/sterling"
+        hero_image:     null
+        clips:
+            - Main:
+                - filename: sterling_yeeaaah.ogg
+                  long_name: Yeeaaaah!
+                  short_name: Yeeaaaah!
+                - filename: sterling_animalabuse.ogg
+                  long_name: Laugh at animal abuse
+                  short_name: Laugh at animal abuse
+                - filename: sterling_burningcat.ogg
+                  long_name: Burning cat
+                  short_name: Burning cat
+                - filename: sterling_celebicon.ogg
+                  long_name: Celebrity icon...
+                  short_name: Celebrity icon...
+                - filename: sterling_dogpiss.ogg
+                  long_name: God's power
+                  short_name: God's power
+                - filename: sterling_drinktheshit.ogg
+                  long_name: So happy I'm pregnant
+                  short_name: So happy I'm pregnant
+                - filename: sterling_ducktales_erection.ogg
+                  long_name: McDuck's erection
+                  short_name: McDuck's erection
+                - filename: sterling_exactly.ogg
+                  long_name: Exactly
+                  short_name: Exactly
+                - filename: sterling_fuckssake.ogg
+                  long_name: Fucks sake
+                  short_name: Fucks sake
+                - filename: sterling_generalvicinity.ogg
+                  long_name: Gonna cum on ya!
+                  short_name: Gonna cum on ya!
+                - filename: sterling_giveashit.ogg
+                  long_name: Don't give a shit
+                  short_name: Don't give a shit
+                - filename: sterling_halflistening.ogg
+                  long_name: Half listening
+                  short_name: Half listening
+                - filename: sterling_havago.ogg
+                  long_name: Have a go
+                  short_name: Have a go
+                - filename: sterling_hormones.ogg
+                  long_name: Hormones
+                  short_name: Hormones
+                - filename: sterling_inthemood.ogg
+                  long_name: I'm in the mood
+                  short_name: I'm in the mood
+                - filename: sterling_laugh1.ogg
+                  long_name: Chuckle
+                  short_name: Chuckle
+                - filename: sterling_lazyfatcunt.ogg
+                  long_name: Lazy fat cunt
+                  short_name: Lazy fat cunt
+                - filename: sterling_letdown.ogg
+                  long_name: That's a letdown
+                  short_name: That's a letdown
+                - filename: sterling_lifeleavemybody.ogg
+                  long_name: See the life leave my body
+                  short_name: See the life leave my body
+                - filename: sterling_massiveblackdildo.ogg
+                  long_name: Massive black dildo
+                  short_name: Massive black dildo
+                - filename: sterling_painus.ogg
+                  long_name: Pain in your anus
+                  short_name: Pain in your anus
+                - filename: sterling_philcollins2.ogg
+                  long_name: Phil Collins 2
+                  short_name: Phil Collins 2
+                - filename: sterling_philcollins.ogg
+                  long_name: Phil Collins
+                  short_name: Phil Collins
+                - filename: sterling_podtoiddrinkinggame.ogg
+                  long_name: Podtoid drinking game
+                  short_name: Podtoid drinking game
+                - filename: sterling_podtoidlisteners.ogg
+                  long_name: Podtoid listeners
+                  short_name: Podtoid listeners
+                - filename: sterling_profuseapologies.ogg
+                  long_name: Profuse apologies
+                  short_name: Profuse apologies
+                - filename: sterling_right.ogg
+                  long_name: Right?
+                  short_name: Right?
+                - filename: sterling_sheepheadlock.ogg
+                  long_name: Sheep in a headlock
+                  short_name: Sheep in a headlock
+                - filename: sterling_slapahorse.ogg
+                  long_name: Slap a horse
+                  short_name: Slap a horse
+                - filename: sterling_suckvideogames.ogg
+                  long_name: Suck a video game character...
+                  short_name: Suck a video game character...
+                - filename: sterling_suckadickatxmas.ogg
+                  long_name: Dick at XMas
+                  short_name: Dick at XMas
+
+            - Dafoe:
+                - filename: sterling_dafoe_farmeranimals.ogg
+                  long_name: I'M FARMER ANIMALS
+                  short_name: I'M FARMER ANIMALS
+                - filename: sterling_dafoe_democrat.ogg
+                  long_name: DON'T FORGET TO VOTE
+                  short_name: DON'T FORGET TO VOTE
+                - filename: sterling_dafoe_hellosun.ogg
+                  long_name: SAY HELLO TO THE SUN
+                  short_name: SAY HELLO TO THE SUN
+                - filename: sterling_dafoe_heykids_alternate.ogg
+                  long_name: HEY KIDS - Alt
+                  short_name: HEY KIDS - Alt
+                - filename: sterling_dafoe_heykids.ogg
+                  long_name: HEY KIDS, WANNA DIE?
+                  short_name: HEY KIDS, WANNA DIE?
+                - filename: sterling_dafoe_heykids_short.ogg
+                  long_name: HEY KIDS - Short
+                  short_name: HEY KIDS - Short
+                - filename: sterling_dafoe_horsenamedkeanu.ogg
+                  long_name: HORSE NAMED KEANU
+                  short_name: HORSE NAMED KEANU
+                - filename: sterling_dafoe_justtobesure.ogg
+                  long_name: JUST TO BE SURE...
+                  short_name: JUST TO BE SURE...
+                - filename: sterling_dafoe_skullfuck.ogg
+                  long_name: SKULLFUCK YOUR MOTHER
+                  short_name: SKULLFUCK YOUR MOTHER
+                - filename: sterling_dafoe_whitegold.ogg
+                  long_name: WHITE GOLD
+                  short_name: WHITE GOLD
+                - filename: sterling_dafoe_yeehaw.ogg
+                  long_name: YEE HAW!
+                  short_name: YEE HAW!
+
+            - Songs:
+                - filename: sterling_fight.ogg
+                  long_name: Fuh-fuh-fuh-fight!
+                  short_name: Fuh-fuh-fuh-fight!
+                - filename: sterling_song1.ogg
+                  long_name: Streets of Rage
+                  short_name: Streets of Rage
+                - filename: sterling_song2_killtheworld.ogg
+                  long_name: Kill the World
+                  short_name: Kill the World
+                - filename: sterling_song_hibbehdibbehdah.ogg
+                  long_name: Hibbehdibbehdah!
+                  short_name: Hibbehdibbehdah!
+                - filename: sterling_suckaduckboner.ogg
+                  long_name: Suck A Duck Boner
+                  short_name: Suck A Duck Boner
+
+
+            - Trent Reznor:
+                - filename: other_trent_skyrim.ogg
+                  long_name: Arrow to the knee
+                  short_name: Arrow to the knee
+
+            - The Lust Gurney:
+                - filename: sterling_preposterous_videogame.ogg
+                  long_name: Preposterous name
+                  short_name: Preposterous name
+                - filename: sterling_burymeinthesand.ogg
+                  long_name: Bury me in the sand
+                  short_name: Bury me in the sand
+                - filename: sterling_disneyshead.ogg
+                  long_name: Get me Walt Disney's head!
+                  short_name: Get me Walt Disney's head!
+                - filename: sterling_fabrige_eggs.ogg
+                  long_name: Faberge eggs
+                  short_name: Faberge eggs
+
+            - The Spidered-Man:
+                - filename: sterling_whyholmesspiderman.ogg
+                  long_name: xxxxxxxxxxxx
+                  short_name: xxxxxxx
+                - filename: sterling_law_of_averages.ogg
+                  long_name: xxxxxxxxxxxx
+                  short_name: xxxxxxx
+                - filename: sterling_mindmeld.ogg
+                  long_name: xxxxxxxxxxxx
+                  short_name: xxxxxxx
+                - filename: sterling_haventbeenbitten.ogg
+                  long_name: xxxxxxxxxxxx
+                  short_name: xxxxxxx
+                - filename: sterling_nogoodpieceofshit.ogg
+                  long_name: xxxxxxxxxxxx
+                  short_name: xxxxxxx
+                - filename: sterling_goddamnitparker.ogg
+                  long_name: xxxxxxxxxxxx
+                  short_name: xxxxxxx
+                - filename: sterling_jameson.ogg
+                  long_name: xxxxxxxxxxxx
+                  short_name: xxxxxxx
+                - filename: sterling_jameson_ex.ogg
+                  long_name: xxxxxxxxxxxx
+                  short_name: xxxxxxx
+
+            - BONUS:
+                - filename: sterling_266_comeon.ogg
+                  long_name: sterling_266_comeon
+                  short_name: sterling_266_comeon
+                - filename: sterling_266_doubleerections.ogg
+                  long_name: sterling_266_doubleerections
+                  short_name: sterling_266_doubleerections
+                - filename: sterling_266_hotbod.ogg
+                  long_name: sterling_266_hotbod
+                  short_name: sterling_266_hotbod
+                - filename: sterling_cantassume.ogg
+                  long_name: sterling_cantassume
+                  short_name: sterling_cantassume
+                - filename: sterling_fattyboomboom.ogg
+                  long_name: sterling_fattyboomboom
+                  short_name: sterling_fattyboomboom
+                - filename: sterling_scream.ogg
+                  long_name: sterling_scream
+                  short_name: sterling_scream
+#############
+    -   name:           Holmes
+        description:    Johnathan Holmes
+        path:           "/audio/holmes"
+        hero_image:     null
+        clips:
+            - Main:
+                - filename: holmes_allshitandaids.ogg
+                  long_name: It's all shit and AIDS
+                  short_name: It's all shit and AIDS
+                - filename: holmes_assisnotok.ogg
+                  long_name: My ass is not okay
+                  short_name: My ass is not okay
+                - filename: holmes_buttdie.ogg
+                  long_name: Bicycle butt
+                  short_name: Bicycle butt
+                - filename: holmes_excitedyeah.ogg
+                  long_name: Excited yeah
+                  short_name: Excited yeah
+                - filename: holmes_heyguyschips.ogg
+                  long_name: Got any chips?
+                  short_name: Got any chips?
+                - filename: holmes_notthatspecial.ogg
+                  long_name: Not that special
+                  short_name: Not that special
+                - filename: holmes_nudeman.ogg
+                  long_name: When a nude man...
+                  short_name: When a nude man...
+                - filename: holmes_owlsarehot.ogg
+                  long_name: Owls are  hot
+                  short_name: Owls are  hot
+                - filename: holmes_prettybigforabutthole.ogg
+                  long_name: Pretty big butthole
+                  short_name: Pretty big butthole
+                - filename: holmes_rememberskeletondick.ogg
+                  long_name: Remember skeleton dick
+                  short_name: Remember skeleton dick
+                - filename: holmes_safespace.ogg
+                  long_name: Safe space
+                  short_name: Safe space
+                - filename: holmes_sexynoises.ogg
+                  long_name: Sexy noises
+                  short_name: Sexy noises
+                - filename: holmes_sofunnysofunny.ogg
+                  long_name: So funny
+                  short_name: So funny
+                - filename: holmes_somucholder.ogg
+                  long_name: So much older
+                  short_name: So much older
+                - filename: holmes_welikeyou.ogg
+                  long_name: We like you
+                  short_name: We like you
+                - filename: holmes_what.ogg
+                  long_name: What?
+                  short_name: What?
+                - filename: holmes_wii.ogg
+                  long_name: Everytime I say Wii
+                  short_name: Everytime I say Wii
+
+            - BONUS:
+                - filename: holmes_266_ughgross.ogg
+                  long_name: holmes_266_ughgross
+                  short_name: holmes_266_ughgross
+                - filename: holmes_dowhateveryouwant.ogg
+                  long_name: holmes_dowhateveryouwant
+                  short_name: holmes_dowhateveryouwant
+#############
+    -   name:           Zimmerman
+        description:    Conrad Zimmerman
+        path:           "/audio/zim"
+        hero_image:     null
+        clips:
+            - Main:
+                - filename: zim_allfours.ogg
+                  long_name: All fours
+                  short_name: All fours
+                - filename: zim_areyousuggestingbitten.ogg
+                  long_name: ...bitten by every spider we can find?
+                  short_name: ...bitten by every spider we can find?
+                - filename: zim_rebelteen.ogg
+                  long_name: First rebel teen
+                  short_name: First rebel teen
+                - filename: zim_russiansub.og
+                  long_name: Like a Russian Sub
+                  short_name: Like a Russian Sub
+
+            - BONUS:
+                - filename: zim_266_swollenmember.ogg
+                  long_name: zim_266_swollenmember
+                  short_name: zim_266_swollenmember
+#############
+    -   name:           Other
+        description:    Misc Clips
+        path:           "/audio/other"
+        hero_image:     null
+        clips:
+            - Main:
+                - filename: other_agreement.ogg
+                  long_name: Group agreement
+                  short_name: Group agreement
+                - filename: other_hedgehog.ogg
+                  long_name: Hedgehog Croquet
+                  short_name: Hedgehog Croquet
+                - filename: other_littlewhitetail.ogg
+                  long_name: Little white tail
+                  short_name: Little white tail
+                - filename: other_lustgurney.ogg
+                  long_name: Fetch me my lust gurney!
+                  short_name: Fetch me my lust gurney!
+                - filename: other_owlsarefuckers.ogg
+                  long_name: Owls are fuckers
+                  short_name: Owls are fuckers
+                - filename: other_womenwithwheels.ogg
+                  long_name: Women with wheels
+                  short_name: Women with wheels
+
+            - Themes:
+                - filename: other_theme_1.ogg
+                  long_name: 1.Reptile (Skrillex)
+                  short_name: 1.Reptile (Skrillex)
+                - filename: other_theme_2.ogg
+                  long_name: 2.Main Theme (Metal Arms)
+                  short_name: 2.Main Theme (Metal Arms)
+                - filename: other_theme_3.ogg
+                  long_name: 3.Zed Boss Battle (Lollipop Chainsaw)
+                  short_name: 3.Zed Boss Battle (Lollipop Chainsaw)
+                - filename: other_theme_4.ogg
+                  long_name: 4.Rave On (Killer7)
+                  short_name: 4.Rave On (Killer7)
+                - filename: other_theme_6.ogg
+                  long_name: other_theme_6
+                  short_name: other_theme_6
