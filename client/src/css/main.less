@@ -2,18 +2,104 @@
 @import "_globals";
 
 body {
-    font-family:      @standard-fonts;
-    font-size:        12pt;
-    background-color: white;
+    font-family: @standard-fonts;
+    font-size: 12pt;
+    background-color: black;
+    color: white;
 }
 
 @media @desktop {
+    .header-image {
+        background-image: url('/assets/images/header.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        // background-size: contain;
+        max-width: 1024px;
+        height: 90px;
+        margin: auto;
+    }
 
+
+    ul {
+        padding: 0;
+        margin: 0;
+    }
+    .categories {
+        max-width: 1024px;
+        margin: auto;
+        .hero-image {
+            width: 100%;
+            height: 200px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            padding-bottom: 1em;
+        }
+        h2 {
+            font-size: 32pt;
+            color: black;
+            background-color: red;
+            text-align: center;
+            margin-top: 1em;
+            line-height: 2em;
+            user-select: none;
+        }
+        .category {
+            max-width: 90%;
+            margin: auto;
+        }
+    }
+    .subcats {
+        background-color: #200;
+        .subcat {
+            margin-bottom: 1em !important;
+            padding-left: 1em;
+            padding-right: 1em;
+            padding-bottom: 2em;
+        }
+        h4 {
+            font-size: 16pt;
+            color: greenyellow;
+            text-align: center;
+            user-select: none;
+        }
+    }
+    .clips {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 1em;
+        padding-right: 1em;
+        .clip {
+            flex: 1 1 200px;
+            margin: 0.10em;
+        }
+        button {
+            font-family: @standard-fonts;
+            vertical-align: middle;
+            background-color: #666;
+            width: 100%;
+            height: 3.3em;
+            border: none;
+            color: black;
+            line-height: 1em;
+            font-size: 12pt;
+            user-select: none;
+            cursor: pointer;
+            &.playing,
+            &.playing:hover {
+                background-color: red;
+                color: white;
+            }
+            &:hover {
+                background-color:#888;
+            }
+        }
+    }
 }
+
 
 /********************************************************/
 
 @import "pages/index";
-
 @import "main-tablet";
 @import "main-mobile";

@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Untitled Project{% if title %} - {{ title }}{% else %} - Untitled Page{% endif %}</title>
+    <link href="//fonts.googleapis.com/css?family=Carter One&subset=latin" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="{{ path.dest.css }}/main.css">
     <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
     <link rel="icon" type="image/png" href="/favicon.png"/>
@@ -15,11 +16,11 @@
 </head>
 <body data-page-id="{{ page_id }}" {% if has_sticky_footer %}data-has-sticky-footer="{{ has_sticky_footer }}"{% endif %}>
     <div id="BodyWrapper">
-        {% include "../_partials/_header.twig" %}
+        {# {% include "../_partials/_header.twig" %} #}
         <div id="Content">
             {% block content %}{% endblock content %}
         </div>
-        {% include "../_partials/_footer.twig" %}
+        {# {% include "../_partials/_footer.twig" %} #}
     </div>
 </body>
 </html>

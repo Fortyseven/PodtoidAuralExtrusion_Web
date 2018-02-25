@@ -4,5 +4,26 @@
 {% extends "../_layouts/html.twig" %}
 
 {% block content %}
-<h1>{{ copy.index.blurb1 }}</h1>
+    <audio id="myAudio" ></audio>
+    <div ng-app="clientMain" ng-controller="clientMainCtrl">
+        <header>
+            <div class="header-image"></div>
+        </header>
+        <ul class="categories">
+            <li class="category" ng-repeat="(cat, subcats) in clips.category">
+                <h2>{[{ cat }]}</h2>
+                <div class="hero-image" style="background-image:url({{ path.dest.images }}/{[{ subcats.hero_image }]})"></div>
+                <ul class="subcats">
+                    <li class="subcat" ng-repeat="(sub_name, clip_cats) in subcats.clips">
+                        <h4>{[{sub_name}]}</h4>
+                        <ul class="clips">
+                            <li class="clip" ng-repeat="clip in clip_cats">
+                                <button ng-class="{playing:clip.isPlaying}" ng-click="playClip( cat, clip.file, clip )">{[{clip.title}]}</button>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
 {% endblock content %}
